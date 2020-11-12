@@ -1,0 +1,1 @@
+"D:\Android\sdk\emulator\emulator" -avd Nexus_5X_API_29_x86_64
