@@ -1,0 +1,21 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint", "prettier"],
+	"extends": [
+		"prettier",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:prettier/recommended",
+		"react-native-wcandillon"
+	],
+	"rules": {
+		"no-undef": "off",
+		"react/jsx-indent": ["error", "tab"],
+		"react/jsx-indent-props": ["error", "tab"],
+		"@typescript-eslint/no-use-before-define": "off",
+		"no-plusplus": "off",
+		"react-native/no-unused-styles": "error",
+		"prettier/prettier": "error"
+	}
+}
