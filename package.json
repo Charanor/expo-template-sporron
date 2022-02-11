@@ -26,7 +26,7 @@
 		"web": "expo start --web",
 		"eject": "expo eject",
 		"prepare": "husky install",
-		"lint": "eslint"
+		"lint": "eslint --fix --max-warnings 0"
 	},
 	"dependencies": {
 		"expo": "^44.0.0",
